@@ -1,0 +1,9 @@
+GIT
+# we want git to be aware of our changes
+# we want the updated version of today available on the repository online
+# Git dans la fenetre à droite dans Rstudio
+# select the file you want to commit
+# configure your account if not already done:
+# git config --global user.email amelie@fys.uio.no
+# git config --global user.name aneuville
+# click on commit
