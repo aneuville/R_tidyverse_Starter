@@ -48,14 +48,6 @@ fert <- raw_fert %>%
   gather(key=year, value=fert, - country) %>%
   mutate(year=as.integer(year))
 
-# we want git to be aware of our changes
-# we want the updated version of today available on the repository online
-# Git dans la fenetre à droite dans Rstudio
-# select the file you want to commit
-# configure your account if not already done:
-# git config --global user.email amelie@fys.uio.no
-# git config --global user.name aneuville
-# click on commit
 
 # GAPMINDER PLUS 
 download.file(url = "https://raw.githubusercontent.com/dmi3kno/SWC-tidyverse/master/data/gapminder_plus.csv", 

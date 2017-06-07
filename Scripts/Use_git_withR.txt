@@ -1,4 +1,20 @@
+
 GIT
+
+#https://github.com/aneuville/SWC-tidyverse
+# rstarter
+# new project in R taken from a repository from Github
+# in github: 
+# fork the project to your home git
+# download the project
+# copy the adress 
+# (writen: clone with httpd, use GIT or checkout with SVN using the web URL)
+# in R
+# new project
+# from version control
+# paste the web adress
+# install.packages("tidyverse")
+
 # we want git to be aware of our changes
 # we want the updated version of today available on the repository online
 # Git dans la fenetre à droite dans Rstudio
@@ -6,4 +22,4 @@ GIT
 # configure your account if not already done:
 # git config --global user.email amelie@fys.uio.no
 # git config --global user.name aneuville
-# click on commit
+# click on push
